@@ -39,13 +39,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
 		glview = GLViewImpl::create("My Game");
 
 		//화면 크기 설정
-		glview->setFrameSize(480, 320);
+		glview->setFrameSize(320, 480);
 
 		director->setOpenGLView(glview);
 	}
 
 	// 해상도 설정
-	CCSize curSize = CCSize(TARGET_WIDTH, TARGET_HEIGHT);
+	CCSize curSize = CCSize(320, 480);
 	director->getOpenGLView()->setDesignResolutionSize(curSize.width, curSize.height, kResolutionExactFit);
 	director->setContentScaleFactor(1.0);
 

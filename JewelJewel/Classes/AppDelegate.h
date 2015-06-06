@@ -1,9 +1,6 @@
 #ifndef  _APP_DELEGATE_H_
 #define  _APP_DELEGATE_H_
 
-#define TARGET_WIDTH 480	
-#define TARGET_HEIGHT 320
-
 #include "cocos2d.h"
 
 /**
